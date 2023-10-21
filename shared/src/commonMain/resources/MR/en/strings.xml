@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kopilot</string>
+    <string name="loading_text">Chargement en cours ...</string>
+    <string name="login_screen_title">Bienvenue,\nIdentifiez-vous</string>
+    <string name="hint_email_phone_number">Email ou numéro de portable</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="login_button_title">Se connecter</string>
+    <string name="lost_password_button_title">Mot de passe oublié?</string>
+    <string name="signup_button_title">Pas encore de compte? S\'inscrire</string>
+    <string name="error_login_email_or_phone_number_blank">L\'adresse email ou le numéro de portable ne peut être vide.</string>
+    <string name="error_login_password_blank">Votre mot de passe ne peut être vide.</string>
+    <string name="error_login_email_not_valid">L\'adresse email n\'est pas au bon format.</string>
+    <string name="error_login_phone_number_not_valid">Le numéro de portable n\'est pas au bon format.</string>
+    <string name="error_default">Veuillez nous excuser. Une erreur est survenue, veuillez réessayer ultérieurement.</string>
+    <string name="error_internet">Veuillez nous excuser. Une erreur est survenue sur nos serveurs.</string>
+    <string name="error_no_internet">Veuillez nous excuser. Nos serveurs mettent du temps à répondre.</string>
+    <string name="error_title">Oups...</string>
+    <string name="warning_title">Attention...</string>
+    <string name="info_title">Hey...</string>
+</resources>

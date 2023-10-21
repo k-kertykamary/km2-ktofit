@@ -1,0 +1,114 @@
+[versions]
+activityComposeVersion = "1.8.0"
+appcompatVersion = "1.6.1"
+coreKtxVersion = "1.12.0"
+kotlinVersion = "1.9.10"
+androidGradleVersion = "7.4.2"
+androidSdkCommonVersion = "31.1.2"
+
+# kotlinx
+kotlinxCoroutinesVersion = "1.7.3"
+
+# kotlinx json
+kotlinxJsonVersion = "1.6.0"
+
+# android compose
+composeVersion = "1.5.3"
+composeActivityVersion = "1.8.0"
+
+# jetbrains compose
+composeJetbrainsVersion = "1.5.3"
+# moko
+lifecycleExtensionsVersion = "2.2.0"
+lifecycleViewmodelKtxVersion = "2.7.0-alpha02"
+mokoResourcesVersion = "0.23.0"
+# voyager
+voyagerVersion = "1.0.0-rc07"
+# koin
+koinVersion = "3.5.0"
+# ktor
+ktorVersion = "2.3.4"
+# ktor
+buildKonfigVersion = "0.13.3"
+#ksp
+kspVersion = "1.9.10-1.0.13"
+ktorfitGradleVersion = "1.0.0"
+ktorfitVersion = "1.8.1"
+#phoneNumber
+libPhoneNumberVersion = "8.13.23"
+#napier (Logger)
+napierVersion = "2.6.1"
+
+[libraries]
+# added by Android Studio
+activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityComposeVersion" }
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxJsonVersion" }
+lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensionsVersion" }
+lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtxVersion" }
+
+# moko
+resources-generator = { module = "dev.icerock.moko:resources-generator", version.ref = "mokoResourcesVersion" }
+resources = { module = "dev.icerock.moko:resources", version.ref = "mokoResourcesVersion" }
+resources-compose = { module = "dev.icerock.moko:resources-compose", version.ref = "mokoResourcesVersion" }
+resources-test = { module = "dev.icerock.moko:resources-test", version.ref = "mokoResourcesVersion" }
+
+# voyager
+voyager-navigator = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyagerVersion" }
+voyager-bottom-sheet-navigator = { module = "cafe.adriel.voyager:voyager-bottom-sheet-navigator", version.ref = "voyagerVersion" }
+voyager-tab-navigator = { module = "cafe.adriel.voyager:voyager-tab-navigator", version.ref = "voyagerVersion" }
+voyager-transitions = { module = "cafe.adriel.voyager:voyager-transitions", version.ref = "voyagerVersion" }
+voyager-androidx = { module = "cafe.adriel.voyager:voyager-androidx", version.ref = "voyagerVersion" }
+voyager-koin = { module = "cafe.adriel.voyager:voyager-koin", version.ref = "voyagerVersion" }
+voyager-hilt = { module = "cafe.adriel.voyager:voyager-hilt", version.ref = "voyagerVersion" }
+voyager-livedata = { module = "cafe.adriel.voyager:voyager-livedata", version.ref = "voyagerVersion" }
+voyager-kodein = { module = "cafe.adriel.voyager:voyager-kodein", version.ref = "voyagerVersion" }
+
+# koin
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koinVersion" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinVersion" }
+koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koinVersion" }
+
+# coroutine
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesVersion" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesVersion" }
+
+# serialisation
+kotlin-serialization = { group = "org.jetbrains.kotlin", name = "kotlin-serialization", version.ref = "kotlinVersion" }
+
+# ktor
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktorVersion" }
+ktor-client-cio = { module = "io.ktor:ktor-client-core", version.ref = "ktorVersion" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktorVersion" }
+ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktorVersion" }
+ktor-client-mock = { module = "io.ktor:ktor-client-mock", version.ref = "ktorVersion" }
+ktor-client-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktorVersion" }
+ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktorVersion" }
+ktor-client-logging = { group = "io.ktor", name = "ktor-client-logging", version.ref = "ktorVersion" }
+
+
+# buildkonfig
+buildkonfig-gradle-plugin = { module = "com.codingfeline.buildkonfig:buildkonfig-gradle-plugin", version.ref = "buildKonfigVersion" }
+buildkonfig-compiler = { module = "com.codingfeline.buildkonfig:buildkonfig-compiler", version.ref = "buildKonfigVersion" }
+
+# androidx
+activity-ktx = { group = "androidx.activity", name = "activity-ktx", version = "1.8.0" }
+lifecycle-viewmodel-savedstate = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-savedstate", version = "2.7.0-alpha2" }
+material3 = { group = "androidx.compose.material3", name = "material3", version = "1.1.2" }
+material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version = "1.5.3" }
+
+# ksp
+ksp-gradle-plugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "kspVersion" }
+ksp-symbol-processing-api = { group = "com.google.devtools.ksp", name = "symbol-processing-api", version.ref = "kspVersion" }
+
+# ktorfit
+ktorfit-gradle-plugin = { group = "de.jensklingenberg.ktorfit", name = "gradle-plugin", version.ref = "ktorfitGradleVersion" }
+ktorfit-lib = { group = "de.jensklingenberg.ktorfit", name = "ktorfit-lib", version.ref = "ktorfitVersion" }
+ktorfit-ksp = { group = "de.jensklingenberg.ktorfit", name = "ktorfit-ksp", version.ref = "ktorfitVersion" }
+
+# libphonenumber
+libphonenumber = { module = "com.googlecode.libphonenumber:libphonenumber", version.ref = "libPhoneNumberVersion" }
+
+#Logs
+napier = { group = "io.github.aakira", name = "napier", version.ref = "napierVersion" }
